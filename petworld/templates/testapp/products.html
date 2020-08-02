@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PETWORLD</title>
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+<!--      <link rel="stylesheet" href="{%static "css/demo.css"%}">-->
+  </head>
+  <body>
+
+      <div class="container">
+<!--      <img id="img1" src='{% static "images/cute-puppy.jpg"%}' alt="">-->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/"><img style="max-width:200px; margin-top: 1px;;" src="{% static "images/logo1.gif" %}" alt=""></a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> PRODUCTS</a></li>
+                <li><a href="gallery"><span class="glyphicon glyphicon-picture" aria-hidden="true"> GALLERY</a></li>
+                <li><a href="contact"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> CONTACTS</a></li>
+                <li><a href="feedback"><span class="glyphicon glyphicon-comment" aria-hidden="true"> FEEDBACK</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav><br><br>
+        </div>
+        <div class="container">
+          <div class="jumbotron">
+            <h2>DOG PRODUCTS</h2><hr>
+            <div class="row">
+                <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/nuts.jpg" %}" alt="">
+                <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/gra.png" %}" alt="">
+                <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/royal.jpg" %}" alt="">
+                <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/drolls.jpg" %}" alt="">
+
+              </div>
+              <br><br>
+              <h2>CAT PRODUCTS</h2><hr>
+              <div class="row">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/cat1.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/cat2.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/cat3.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/cat4.jpg" %}" alt="">
+              </div>
+              <br><br>
+              <h2>ACCESSORIES</h2><hr>
+              <div class="row">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/ace1.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/ace2.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/ace3.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/ace3.jpg" %}" alt="">
+              </div><br><br>
+              <div class="row">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/samp.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/soap.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/cover.jpg" %}" alt="">
+                  <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="{% static "images/cage.jpg" %}" alt="">
+              </div>
+          </div>
+        </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+  crossorigin="anonymous"></script>
+  </body>
+</html>

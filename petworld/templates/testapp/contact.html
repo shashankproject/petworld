@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PETWORLD</title>
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static "css/demo2.css"%}">
+  </head>
+  <body>
+
+    <div class="container">
+<!--      <img id="img1" src='{% static "images/cute-puppy.jpg"%}' alt="">-->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/"><img style="max-width:200px; margin-top: 1px;;" src="{% static "images/logo1.gif" %}" alt=""></a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
+                <li><a href="product"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> PRODUCTS</a></li>
+                <li><a href="gallery"><span class="glyphicon glyphicon-picture" aria-hidden="true"> GALLERY</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> CONTACTS</a></li>
+                <li><a href="feedback"><span class="glyphicon glyphicon-comment" aria-hidden="true"> FEEDBACK</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav><br><br><br><br>
+            <div class="container">
+              <div class="jumbotron">
+                <span  style="font-size: 50px" class="glyphicon glyphicon-home" aria-hidden="true"></span><hr><h3 id="add">ADDRESS: V.Hanumanthappa Complex,Bengaluru By-Pass Road,LINGASUGUR-584122</h3>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3832.2621586089303!2d76.52505031417097!3d16.155425541414946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc80198bc392d27%3A0x632729a1ea442300!2sThe%20pet&#39;s%20world%20store%20here%20in%20All%20pet&#39;s%20accessories%20and%20food&#39;s%20available&#39;s!5e0!3m2!1sen!2sin!4v1596344733687!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"   tabindex="0"></iframe></p>
+              </div>
+            </div>
+
+
+
+            <div class="container">
+              <div class="jumbotron">
+                  <span style="font-size: 50px" class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><hr><h3 id="contact"><a href="tel:+919731767142">Call me at: +919731767142</a></h3>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="jumbotron">
+                <span style="font-size: 50px" class="glyphicon glyphicon-envelope" aria-hidden="true"></span><hr><h3 id="email">EMAIL:  sathish.sbb54@gmail.com</h3>
+              </div>
+            </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+    </body>
+    </html>
